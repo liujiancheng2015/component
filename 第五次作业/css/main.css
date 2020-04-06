@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#notepad {
+    width: 900px;
+    height: 600px;
+    /* background-color: pink; */
+    border:solid gray 0.5px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+#icon{
+    float: left;
+    margin-left: 1px;
+    height: 29px;
+}
+#close {
+    float: right;
+    margin-right: 1px;
+}
+#top {
+    height: 30px;
+    /* background-color: blue; */
+}
+#menu{
+    height: 30px;
+    /* background-color: yellow; */
+    border-bottom: solid blue 0.5px;
+}
+
+ul>li{
+    list-style: none;
+    display: inline-block;
+}
